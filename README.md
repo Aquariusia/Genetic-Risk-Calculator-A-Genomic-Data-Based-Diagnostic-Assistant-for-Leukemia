@@ -4,6 +4,12 @@ A Streamlit-based web application that serves as an AI-powered diagnostic assist
 PROJECT OVERVIEW
 This project uses an XGBoost model to perform binary classification of gene expression data from ALL (Acute Lymphoblastic Leukemia) and AML (Acute Myeloid Leukemia) samples.
 
+
+https://github.com/user-attachments/assets/72c62552-483f-4bd8-9263-c8a502b65b1c
+
+
+
+
 KEY COMPONENTS
 
 * Root folder: example input/output files, trained model and predictions
