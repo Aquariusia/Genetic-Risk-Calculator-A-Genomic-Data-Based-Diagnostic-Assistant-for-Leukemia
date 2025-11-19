@@ -1,0 +1,10 @@
+streamlit>=1.2.0
+pandas
+numpy
+seaborn
+matplotlib
+joblib
+openai
+python-dotenv
+xgboost
+scikit-learn
