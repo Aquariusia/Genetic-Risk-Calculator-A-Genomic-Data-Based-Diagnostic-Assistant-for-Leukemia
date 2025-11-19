@@ -13,23 +13,41 @@ KEY COMPONENTS
 DIRECTORY STRUCTURE
 
 |-- app                                       code for web application
+
 |   |-- api\_key.env                              environment variables (ChatGPT API keys)
+
 |   |-- app.py                                    Streamlit web app main script
+
 |   |-- example\_input.csv                        sample input file
+
 |   |-- example1.csv                              sample input variation 1
+
 |   |-- example2.csv                              sample input variation 2
+
 |   └-- gene\_means.csv                           per-gene mean expression values computed during training
+
 |   └-- model.pkl                                 XGBoost model
+
 |   └-- probs.npz                                 predicted probabilities for the train and test set 
+
 |   └-- requirement.txt                           required packages for web application
+
 |
+
 |-- modeling/                                  training workflow and results
+
 |   |-- actual.csv                            true labels for the independent test set
+
 |   |-- data\_set\_ALL\_AML\_train.csv            training dataset
+
 |   |-- data\_set\_ALL\_AML\_independent.csv      independent test dataset
+
 |   |-- genedata.ipynb                          Jupyter Notebook: preprocessing, training, evaluation
+
 |   |-- model.pkl                               model saved within the Notebook (can be merged with root)
+
 |   |-- xgboost\_confusion\_matrix.png            confusion matrix visualization
+
 |   └-- xgboost\_feature\_importance.png          feature importance plot
 
 USAGE NOTES
